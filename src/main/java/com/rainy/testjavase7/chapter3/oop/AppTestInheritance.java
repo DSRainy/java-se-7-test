@@ -52,6 +52,9 @@ public class AppTestInheritance {
     }
 
     private static Car createCar(Car car, String brand, Color color, Integer door) {
+//        You can't set a brand of these instance by  
+//        car.brand = brand;
+//        Because field brand is 
         car.setBrand(brand);
         car.setColor(color);
         car.setDoor(door);
@@ -63,6 +66,6 @@ public class AppTestInheritance {
     }
     
     private static void println(){
-        System.out.println("\n------------------------------");
+        System.out.println("\n------------------------------\n");
     }
 }
